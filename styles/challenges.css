@@ -1,0 +1,21 @@
+
+.container {
+    border: 5px solid rgb(109, 120, 120);
+    background-color: rgb(225, 239, 212);
+    display: grid;
+    grid-auto-columns: 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+    place-content: center;
+    padding: 20px;
+}
+.item {
+    border: 1px solid cadetblue;
+    background-color: chartreuse;
+    font-size: 2rem;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+    padding-right: 5px; 
+}
