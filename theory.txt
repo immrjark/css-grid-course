@@ -1,0 +1,22 @@
+
+ALINEACIÓN 
+
+    Justify -> alinea de forma horizotal
+    Align -> de form horma vertical
+    Place -> una combinacion de ambas
+    
+Dentro de esto tenemos los:
+
+    Items -> elementos que tenemos como contenido
+        Justify-items 
+        Align-items 
+        Place-items 
+    Content -> contenedor. Ajusta el contenedor a la grilla completa que tenemos 
+        Justify-content 
+        Align-content 
+        Place-content 
+    Self -> da forma a los hijos de la grilla. Alineación de los items 
+        Justify-self 
+        Align-self 
+        Place-self 
+

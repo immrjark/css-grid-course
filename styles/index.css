@@ -2,15 +2,19 @@
     border: 5px solid #f8ffff;
     background-color: aliceblue;
     display: grid;
-    grid-template-columns: 100px 200px 300px; /* para darle tamaño a las columnas. Lo que sobre de espacio en la pantala me lo agregará como una nueva columna */
-    grid-template-rows: 150px 250px; /* para darle tamaño a las filas */
+    grid-template-columns: 150px 150px 150px; /* Le decimos el número de colums que queremos teniendo los distitos px por columna y además le damos tamaño a las columnas. Lo que sobre de espacio en la pantala me lo agregará como una nueva columna */
+    grid-template-rows: 150px ; /* para darle tamaño a las filas */
     grid-auto-rows: 150px; /*este me permite definir un estandar para todas las row creadas y por crear*/
-    grid-auto-flow: row; /*esta propieda lo que hace es crear nuevas columnas cuando se nos acabe el espacio o dependiendo de la cantidad de columnas que le haya dicho que tenga. Me colocará el orden de columna en columna si le pongo colum. Y si le pongo row me la completa hasta acabar el número de rows*/
-    row-gap: 15px; /*para crear un espacio entre las filas (estará dentro del container, en los elementos internos, no se aplica a bordes entre distintos elementos)*/
-    column-gap: 15px; /*igual que row-gap*/   
+    /* grid-auto-flow: /* srow; esta propieda lo que hace es crear nuevas columnas cuando se nos acabe el espacio o dependiendo de la cantidad de columnas que le haya dicho que tenga. Me colocará el orden de columna en columna si le pongo colum. Y si le pongo row me la completa hasta acabar el número de rows */
+    /* row-gap: 15px; /* para crear un espacio entre las filas (estará dentro del container, en los elementos internos, no se aplica a bordes entre distintos elementos) */
+    /* column-gap: 15px; /* igual que row-gap    */
     gap: 15px; /*este es para poner tanto a culum como a rows los gaps*/
+    height: 600px;
 }
 .item {
     border: 2px solid #0f5862;
     font-size: 4rem;
+    display: grid;
+    place-content: end; /*llevar los número tanto vertical como horizontal al end*/
+    padding-right: 15px;
 }

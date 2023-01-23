@@ -1,6 +1,15 @@
 
-.container {
-    border: 5px solid rgb(109, 120, 120);
+p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span {
+}
+
+/* Challenge 1 */
+.container1 {
+    border: 3px solid rgb(109, 120, 120);
     background-color: rgb(225, 239, 212);
     display: grid;
     grid-auto-columns: 100px;
@@ -10,7 +19,7 @@
     place-content: center;
     padding: 20px;
 }
-.item {
+.item1 {
     border: 1px solid cadetblue;
     background-color: chartreuse;
     font-size: 2rem;
@@ -18,4 +27,25 @@
     justify-items: end;
     align-items: end;
     padding-right: 5px; 
+}
+
+/* Challenge 2 */
+.container2 {
+    border:3px solid rgb(109, 120, 120);
+    background-color: rgba(225,239,212);
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-auto-rows: 100px;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.item2 {
+    border: 1px solid cadetblue;
+    background-color: bisque;
+    font-size: 2rem;
+    display: grid;
+    place-content: end;
+    padding-right: 8px;
 }
