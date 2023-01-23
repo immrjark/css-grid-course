@@ -20,3 +20,23 @@ Dentro de esto tenemos los:
         Align-self 
         Place-self 
 
+UBICACIÓN
+
+    grid-colums-start
+    grid-colums-end
+    grid-colum -> combina ambos. Tenemos que introducirle el inicio y el final de donde queremos que esté pero separados con un ' / '
+
+    grid-row-start
+    grid-row-end
+    grid-row -> combina ambos. Tenemos que introducirle el inicio y el final de donde queremos que esté pero separados con un ' / '
+
+    grid-area -> le podemos decir donde empiezan y terminan tanto las columnas como las filas
+
+Otra manera de hacerlos es con
+
+    grid-template-area -> esta se tiene que colocar en el container padre y le tenemos que decir que elementos vamos a querer que ocupe cada elemento de la grilla. Y a los elementos que van a ocupar tenemos que decirle que elemetos van a ser.
+
+ESPECIALS FUNCTIONS
+
+    minmax -> para el ancho y alto de celdas. 
+    repeat -> repetir siempre el mismo el elemento

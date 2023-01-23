@@ -1,5 +1,12 @@
+p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ----------- */
 .container {
-    border: 5px solid #f8ffff;
+    border: 5px solid #3a4242;
     background-color: aliceblue;
     display: grid;
     grid-template-columns: 150px 150px 150px; /* Le decimos el número de colums que queremos teniendo los distitos px por columna y además le damos tamaño a las columnas. Lo que sobre de espacio en la pantala me lo agregará como una nueva columna */
@@ -10,6 +17,7 @@
     /* column-gap: 15px; /* igual que row-gap    */
     gap: 15px; /*este es para poner tanto a culum como a rows los gaps*/
     height: 600px;
+    margin-bottom: 40px;
 }
 .item {
     border: 2px solid #0f5862;
@@ -17,4 +25,80 @@
     display: grid;
     place-content: end; /*llevar los número tanto vertical como horizontal al end*/
     padding-right: 15px;
+}
+
+/* --------- */
+.container2 {
+    border: 5px solid #3a4242;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px;
+    place-content: center;
+    height: 600px;
+    grid-template-areas: 
+    "nav_bar nav_bar nav_bar"
+    "side_bar main main"
+    "side_bar main main";
+}
+.item-1{
+    font-size: 4rem;
+    border: 5px solid #875749;
+    background-color: blanchedalmond;
+    grid-column-start: 1;
+    /* grid-column-end: 4; colocamos el 4 porque es la lina en la que acaba. No se cuentan por container si no por líneas */
+    grid-area: nav_bar;
+}
+.item-2{
+    font-size: 4rem;
+    border: 5px solid #49874c;
+    background-color: rgb(205, 255, 210);
+    /* grid-row: 2 / 4; */
+    grid-area: side_bar;
+}
+.item-3{
+    font-size: 4rem;
+    border: 5px solid #494f87;
+    background-color: rgb(218, 205, 255);
+    /* grid-area: 2 / 2 / 4 /4; */
+    grid-area: main;
+}
+
+/* ------------- */
+
+.container3 {
+    border: 5px solid #3a4242;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 30px 200px 60px;
+    grid-template-rows: 100px 100px 100px;
+    height: 600px;
+}
+
+.item-3-1{
+    border: 5px solid #296969;
+}
+.item-3-2{
+    border: 5px solid #296969;
+}
+.item-3-3{
+    border: 5px solid #296969;
+}
+.item-3-4{
+    border: 5px solid #296969;
+}
+.item-3-5{
+    border: 5px solid #296969;
+}
+.item-3-6{
+    border: 5px solid #296969;
+}
+.item-3-7{
+    border: 5px solid #296969;
+}
+.item-3-8{
+    border: 5px solid #296969;
+}
+.item-3-9{
+    border: 5px solid #296969;
 }
