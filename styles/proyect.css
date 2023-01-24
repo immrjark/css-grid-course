@@ -1,7 +1,22 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
 }
 main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* HEADER SECTION */
+
+/* MAIN SECTION */
+.first-section {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.first-section_photo{
+    place-self: center;
+}
+
+
+/* FOOTER SECTION */
