@@ -38,5 +38,5 @@ Otra manera de hacerlos es con
 
 ESPECIALS FUNCTIONS
 
-    minmax -> para el ancho y alto de celdas. 
-    repeat -> repetir siempre el mismo el elemento
+    minmax -> para el ancho y alto de celdas. Donde nos pide dos parámetros minmax ('mínimo' , 'máximo'). El ancho y el alto dependerá de en qué propiedad se lo estemos diciendo, puede ser un colum y por tanto, afectará a las columnas, al ancho y si se lo decimos a la propiedad row afectará al alto
+    repeat -> repetir siempre el mismo el elemento y requiere dos parámetros: repeat ('número de veces a repetir' , 'pixeles que queremos repetir')

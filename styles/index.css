@@ -70,8 +70,8 @@ p {
     border: 5px solid #3a4242;
     background-color: aliceblue;
     display: grid;
-    grid-template-columns: 30px 200px 60px;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
+    grid-template-rows: repeat(3, 100px );
     height: 600px;
 }
 
