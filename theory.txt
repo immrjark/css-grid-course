@@ -39,4 +39,15 @@ Otra manera de hacerlos es con
 ESPECIALS FUNCTIONS
 
     minmax -> para el ancho y alto de celdas. Donde nos pide dos parámetros minmax ('mínimo' , 'máximo'). El ancho y el alto dependerá de en qué propiedad se lo estemos diciendo, puede ser un colum y por tanto, afectará a las columnas, al ancho y si se lo decimos a la propiedad row afectará al alto
+
     repeat -> repetir siempre el mismo el elemento y requiere dos parámetros: repeat ('número de veces a repetir' , 'pixeles que queremos repetir')
+
+KEYWORDS ESPECIALS
+
+    fr -> se refiere a una freacción de la grilla y la usamos declarando el número de fr's que va a ocupar una columna 
+
+    min-content -> ajusta la columna lo más posible al contenido sin romper el propio contenido
+
+    max-content -> hace que el contenido se estire lo más posible, es lo contrario al anterior
+
+    aut-fill/auto-fit -> auto-fill agrega columnas 'insevibles' para rellenar el espacio y auto-fit rellena las columnas existentes para que ocupen todo el espacio. Cuando usamos un auto-fit tenemos que darle un minmax en el siguiente parámetro

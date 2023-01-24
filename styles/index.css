@@ -102,3 +102,29 @@ p {
 .item-3-9{
     border: 5px solid #296969;
 }
+
+/* ----------- */
+
+.container4 {
+    padding-top: 5px;
+    border: 5px solid #3a4242;
+    background-color: aliceblue;
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 4fr 4fr; */
+    grid-template-columns: 1fr min-content max-content 4fr;
+}
+.container4-1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 5px solid #3a4242;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));
+    /* grid-template-columns:repeat(auto-fitmin, minmax(100px, 1fr)); */
+}
+.item4 {
+    border: 2px solid #296969;
+}
+.item4-1 {
+    border: 2px solid #296969;
+}
